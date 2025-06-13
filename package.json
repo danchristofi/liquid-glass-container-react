@@ -1,0 +1,48 @@
+{
+  "name": "liquid-glass-container-react",
+  "version": "1.0.0",
+  "description": "Liquid glass container component for React",
+  "type": "module",
+  "main": "./dist/liquid-glass-container-react.umd.js",
+  "module": "./dist/liquid-glass-container-react.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/liquid-glass-container-react.es.js",
+      "require": "./dist/liquid-glass-container-react.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "wrapper",
+    "glass",
+    "liquid"
+  ],
+  "author": "Dan Christofi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vite": "^6.3.5"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "overrides": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
