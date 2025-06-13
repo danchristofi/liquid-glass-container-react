@@ -1,6 +1,10 @@
 {
   "name": "liquid-glass-container-react",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danchristofi/liquid-glass-container-react.git"
+  },
   "description": "Liquid glass container component for React",
   "type": "module",
   "main": "./dist/liquid-glass-container-react.umd.js",
